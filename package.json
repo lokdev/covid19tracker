@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "https://github.com/lokdev/covid19tracker",
+  "homepage": "https://lokdev.github.io/covid19tracker/",
 
   "scripts": {
     "start": "react-scripts start",
