@@ -59,7 +59,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=","
               />
             </Typography>
-            <Typography colr="textSecondary">REAL DATE</Typography>
+            <Typography colr="textSecondary"> {new Date(lastUpdate).toDateString()}</Typography>
             <Typography variant="body2">
               Number of recoveries from COVID-19
             </Typography>
@@ -85,7 +85,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator=","
               />
             </Typography>
-            <Typography colr="textSecondary">REAL DATE</Typography>
+            <Typography colr="textSecondary"> {new Date(lastUpdate).toDateString()}</Typography>
             <Typography variant="body2">
               Number of death caused by COVID-19
             </Typography>
